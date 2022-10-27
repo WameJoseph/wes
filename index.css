@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0; box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    margin: 0; 
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+    height: fit-content;
+    /* background: linear-gradient(212.04deg, #121239 29.69%, #28287e 80.75%); */
+    position: relative;
+}
+
+header .back{
+    width: 100%;
+    display: flex; align-items:center; justify-content: space-between;
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    height: fit-content;
+    /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+    /* background: linear-gradient(212.04deg, #121239 29.69%, #28287e 80.75%); */
+    position: absolute;
+}
+
+
+header .main-container{
+    width: 100%;
+    display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+    /* padding: 30px 0; */
+    /* background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    height: fit-content;
+    /* background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%); */
+    /* background: linear-gradient(212.04deg, #121239 29.69%, #28287e 80.75%); */
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    /* box-shadow: 1px 3px 3px #121239; */
+    border-radius: 3px;
+    /* background-color: wheat; */
+    box-shadow: 0 0.125rem 0.55rem rgb(0 0 0 / 8%) ;
+    padding: 0 20px;
+    display: flex; align-items: center; justify-content: space-evenly;
+    /* border-bottom: solid silver 1px; */
+    padding: 0 8%;
+}
+
+nav .sp1{
+    display: none;
+}
+
+nav .sp1 .menu{
+    font-size: 26px;
+    color: black;
+    font-weight: 400;
+    height: 26px;
+    /* border: solid 1px; */
+    /* text-decoration: none; */
+    /* letter-spacing: 3px; */
+    cursor: pointer;
+
+}
+
+nav  .logo{
+    font-size: 28px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 3px;
+    /* margin-left: auto; */
+    /* margin-right: 5%; */
+    /* margin-right: auto; */
+    transition: 300ms;
+}
+
+nav  .logo:hover{
+    color: green;
+}
+
+nav .logo b{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 0px;
+    letter-spacing: 0;
+}
+
+nav .sp2{
+    display: flex; justify-content: center; align-items: center;
+    margin-left: auto;
+}
+
+nav .sp2 .explore{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0px;
+    letter-spacing: 0;
+    color: black;
+    text-decoration: none;
+    display: flex; justify-content: center; align-items: center;
+    transition: 100ms;
+}
+
+nav .sp2 .explore i{
+    margin-left: 10px;
+}
+
+nav .sp2 .explore:hover{
+    color: green;
+}
+
+
+nav .sp2 .connect{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0px;
+    letter-spacing: 0;
+    color: white;
+    text-decoration: none;
+    display: flex; justify-content: center; align-items: center;
+    transition: 300ms;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca);
+    background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
+
+    transition: 1s;
+}
+
+nav .sp2 .connect:hover{
+    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(2, 168, 2, 0.74);
+    background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
+
+    /* background-image: linear-gradient(to right top, #051937, #002265); */
+
+}
+
+header section{
+    position: relative;
+    width: 100%;
+    height: fit-content; display: flex; align-items: flex-start; justify-content: center;
+    padding-top: 20px;
+    /* border: solid; */
+    height: fit-content;
+}
+
+header section .back{
+    position: absolute;
+    height: 100%;
+    width: 83%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb);
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-image: linear-gradient(to right top, #6e1b4a, #771e67, #8427a0);
+    display: flex; padding: 0 5%; justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header section .back img{
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+
+header section .main-container{
+    position: relative;
+    height: fit-content;
+    width: 83%;
+    /* margin-top: 10px; */
+    /* border: solid; */
+    border-radius: 30px;
+    background-color: ;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 55px 0 20px 0;
+}
+
+
+header section .main-container h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin-bottom: 0px;
+    text-shadow: 3px 2px 0px rgba(99, 124, 62, 0.3);
+    text-shadow: 3px 2px 0px rgba(18, 13, 66, 0.534) !important;
+
+}
+
+header section .main-container h1 b{
+    font-size: 40px;
+    color: white;
+    margin-left: 3px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+header section .main-container h2{
+    font-size: 26px;
+    color: white;
+    font-weight: 500;
+    /* letter-spacing: 2px; */
+    width: 45%;
+    text-align: center;
+    text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
+    text-shadow: 3px 2px 0px rgba(18, 13, 66, 0.534);
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 85px;
+}
+
+header section .main-container a{
+    /* margin-top: 85px; */
+    border: solid 1px white;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    box-shadow: 5px 5px rgb(255, 255, 255, 0.5);
+    box-shadow: 13px 15px rgb(132, 196, 37, 0.3);
+    box-shadow: 13px 15px rgba(37, 48, 196, 0.651);
+    background: rgba(0, 0, 0, 0.651);
+    box-shadow: 13px 15px rgba(0, 0, 0, 0.651);
+
+    background-color: rgb(255, 255, 255, 0.2);
+    box-shadow: 10px 10px rgba(255, 255, 255, 0.3);
+
+    background-color: rgb(255, 255, 255, 0.6);
+    /* box-shadow: 13px 15px rgba(255, 255, 255, 0.3); */
+    box-shadow: 12px 12px rgba(255, 255, 255, 0.3);
+    color: black;
+    border: solid black 2px;
+    letter-spacing: .6px;
+
+
+    /* margin-top: 5px; */
+    padding: 8px 20px;
+    transition: 130ms;
+    margin-bottom: 5px;
+}
+
+header section .main-container a:hover{
+    /* margin-top: 74.5px; */
+    background-color: rgb(255, 255, 255, 0.6);
+    /* box-shadow: 13px 15px rgba(255, 255, 255, 0.3); */
+    box-shadow: 15px 15px rgba(255, 255, 255, 0.15);
+    border: solid black 2px;
+    letter-spacing: 1px;
+    /* padding: 9px 20px; */
+    /* margin-left: 5px; */
+    /* margin-bottom: 3px; */
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    nav{
+        width: 100%;
+        height: 70px;
+        padding: 0 6%;
+    }
+
+    nav  .logo{
+        font-size: 22px;
+    }
+
+    nav .logo b{
+        font-size: 22px;
+    }
+
+    nav .sp2 .explore{
+        font-size: 14px;
+
+    }
+    
+    nav .sp2 .connect{
+        font-size: 14px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        margin-left: 40px;
+    }
+
+    header section .back{
+        position: absolute;
+        height: 100%;
+        width: 90%;
+    }
+
+    header section .main-container h2{
+        width: 50%;
+        text-align: center;
+        text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
+        text-shadow: 3px 2px 0px rgba(18, 13, 66, 0.534) !important;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        margin-bottom: 85px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    nav{
+        width: 100%;
+        height: 70px;
+        padding: 0 8%;
+    }
+
+    header section .main-container h2{
+        font-size: 21px;
+        color: white;
+        font-weight: 500;
+        /* letter-spacing: 2px; */
+        width: 80%;
+        text-align: center;
+        text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
+        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.3);
+        letter-spacing: 2px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav  .logo{
+        font-size: 24px;
+    }
+
+    nav .logo b{
+        font-size: 24px;
+    }
+
+    header section .main-container h1{
+        font-size: 26px;
+        color: white;
+        font-weight: 100;
+        letter-spacing: 4px;
+        margin-bottom: 0px;
+        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.3);
+    }
+    
+    header section .main-container h1 b{
+        font-size: 26px;
+        color: white;
+        margin-left: 1.5px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+    }
+    
+    nav .sp1{
+        display: flex; justify-content: center; align-items: center;
+        margin-right: auto;
+    }
+
+    nav .sp2{
+        display: none;
+    }
+
+    nav  .logo{
+        margin-left: -5%;
+        margin-right: auto;
+    }
+
+    header section .main-container h2{
+        font-size: 21px;
+        color: white;
+        font-weight: 500;
+        /* letter-spacing: 2px; */
+        width: 100%;
+        text-align: center;
+        text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
+        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.3);
+        letter-spacing: 2px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    
+header section .back{
+    position: absolute;
+    height: 100%;
+    width: 98%;
+    border-radius: 15px;
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb); */
+}
+
+
+
+
+}
