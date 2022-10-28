@@ -164,10 +164,10 @@ header section .back{
     background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb);
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     background-image: linear-gradient(to right top, #6e1b4a, #771e67, #8427a0);
-    display: flex; padding: 0 0%; justify-content: flex-start;
-    align-items: flex-end;
+    display: flex; flex-direction: column; padding: 0 0%; justify-content: flex-end;
+    align-items: flex-start;
     overflow: hidden;
-    background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
+    background-image: linear-gradient(to right top, #dd288f, #a02189, #bd2ce9);
     
 }
 
@@ -177,8 +177,22 @@ header section .back img{
     display: none;
 }
 
-
 header section .back .o1{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255, 0.2);
+    background-image: linear-gradient(to right top, #ac2973f3, rgb(155, 46, 135), #ae2ed4);
+
+    /* margin-left: -5%;
+    margin-bottom: -5%;
+    background-image: linear-gradient(to right top, #cc2c87ab, #c02da59c, #ae2ed4); */
+    margin-left: auto;
+    margin-top: -50%;
+    margin-right: -15%;
+}
+
+header section .back .o2{
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -186,7 +200,7 @@ header section .back .o1{
     /* filter: blur(5px); */
     margin-left: -5%;
     margin-bottom: -5%;
-    background-image: linear-gradient(to right top, #cc2c87ab, #c02da59c, #ae2ed4);
+    background-image: linear-gradient(to right top, #ac2973f3, rgb(155, 46, 135), #ae2ed4);
     
 }
 
@@ -227,17 +241,18 @@ header section .main-container h1 b{
 }
 
 header section .main-container h2{
-    font-size: 38px;
+    font-size: 32px;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     /* letter-spacing: 2px; */
-    width: 45%;
+    width: 65%;
     text-align: center;
     /* text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
     text-shadow: 1px 2px 0px rgba(18, 13, 66, 0.534); */
-    letter-spacing: 2px;
+    letter-spacing: 6px;
     margin-top: 10px;
     margin-bottom: 85px;
+    word-spacing: 5px;
 }
 
 header section .main-container a{
@@ -261,7 +276,7 @@ header section .main-container a{
     box-shadow: 10px 10px rgba(255, 255, 255, 0.3);
     color: black;
     border: solid black 2px;
-    letter-spacing: .6px;
+    letter-spacing: .4px;
 
 
     /* margin-top: 5px; */
@@ -283,7 +298,15 @@ header section .main-container a:hover{
     color: black;
 }
 
-
+main{
+    width: 95%;
+    height: 60vh;
+    border: solid silver;
+    margin-top: 20px;
+    padding: 8%;
+    /* margin: 0 auto; */
+    
+}
 
 
 
@@ -332,16 +355,15 @@ header section .main-container a:hover{
     }
 
     header section .back{
-        position: absolute;
         height: 350px;
         width: 83%;
     }
 
     header section .main-container h2{
-        width: 70%;
+        width: 65%;
         text-align: center;
-        text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
-        text-shadow: 3px 2px 0px rgba(18, 13, 66, 0.534) !important;
+        /* text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
+        text-shadow: 3px 2px 0px rgba(18, 13, 66, 0.534) !important; */
         letter-spacing: 2px;
         margin-top: 10px;
         margin-bottom: 85px;
@@ -353,7 +375,7 @@ header section .main-container a:hover{
     nav{
         width: 100%;
         height: 70px;
-        padding: 0 8%;
+        padding: 0 6%;
     }
 
     header section .main-container h2{
@@ -366,15 +388,19 @@ header section .main-container a:hover{
         margin-bottom: 60px;
     }
 
-    header section .back .o1{
+    header section .back{
+        height: 350px;
+        width: 88%;
+    }
+
+    /* header section .back .o1{
         width: 200px;
         height: 200px;
         border-radius: 100%;
         background-color: rgb(255, 255, 255, 0.1);
-        /* filter: blur(5px); */
         margin-left: -8%;
         margin-bottom: -8%;
-    }
+    } */
 }
 
 @media screen and (max-width: 600px) {
@@ -392,16 +418,9 @@ header section .main-container a:hover{
         font-weight: 100;
         letter-spacing: 4px;
         margin-bottom: 0px;
-        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.3);
+        /* text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.3); */
     }
-    
-    header section .main-container h1 b{
-        font-size: 26px;
-        color: white;
-        margin-left: 1.5px;
-        font-weight: 900;
-        letter-spacing: 0.5px;
-    }
+
     
     nav .sp1{
         display: flex; justify-content: center; align-items: center;
@@ -417,12 +436,24 @@ header section .main-container a:hover{
         margin-right: auto;
     }
 
+    header section .main-container{
+        width: 100%;
+    }
+    
+    header section .main-container h1 b{
+        font-size: 26px;
+        color: white;
+        margin-left: 1.5px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+    }
+
     header section .main-container h2{
         font-size: 24px;
         color: white;
         font-weight: 500;
         /* letter-spacing: 2px; */
-        width: 100%;
+        width: 95%;
         text-align: center;
         /* text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
         text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.03); */
@@ -440,23 +471,25 @@ header section .main-container a:hover{
         /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
         background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb); */
         background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
+        opacity: .9;
+
 
     }
 
-    header section .main-container a{
-        font-size: 16px;
-        /* margin-top: 5px; */
-        padding: 8px 15px;
-
-    }
     header section .back .o1{
-        width: 130px;
-        height: 130px;
+        width: 230px;
+        height: 230px;
+        margin-left: auto;
+        margin-top: -60%;
+        margin-right: -35%;
+    }
+    
+    header section .back .o2{
+        width: 200px;
+        height: 200px;
         border-radius: 100%;
-        background-color: rgb(255, 255, 255, 0.05);
-        /* filter: blur(5px); */
-        margin-left: -13%;
-        margin-bottom: -10%;
+        margin-left: -15%;
+        margin-bottom: -15%;
     }
 
 
