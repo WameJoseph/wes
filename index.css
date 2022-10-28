@@ -166,6 +166,9 @@ header section .back{
     background-image: linear-gradient(to right top, #6e1b4a, #771e67, #8427a0);
     display: flex; padding: 0 0%; justify-content: flex-start;
     align-items: flex-end;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
+    
 }
 
 header section .back img{
@@ -183,6 +186,8 @@ header section .back .o1{
     /* filter: blur(5px); */
     margin-left: -5%;
     margin-bottom: -5%;
+    background-image: linear-gradient(to right top, #cc2c87ab, #c02da59c, #ae2ed4);
+    
 }
 
 
@@ -222,14 +227,14 @@ header section .main-container h1 b{
 }
 
 header section .main-container h2{
-    font-size: 30px;
+    font-size: 38px;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
     /* letter-spacing: 2px; */
     width: 45%;
     text-align: center;
-    text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
-    text-shadow: 3px 2px 0px rgba(18, 13, 66, 0.534);
+    /* text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
+    text-shadow: 1px 2px 0px rgba(18, 13, 66, 0.534); */
     letter-spacing: 2px;
     margin-top: 10px;
     margin-bottom: 85px;
@@ -353,13 +358,9 @@ header section .main-container a:hover{
 
     header section .main-container h2{
         font-size: 26px;
-        color: white;
-        font-weight: 500;
-        /* letter-spacing: 2px; */
         width: 80%;
-        text-align: center;
-        text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
-        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.3);
+        /* text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
+        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.3); */
         letter-spacing: 2px;
         margin-top: 30px;
         margin-bottom: 60px;
@@ -423,8 +424,8 @@ header section .main-container a:hover{
         /* letter-spacing: 2px; */
         width: 100%;
         text-align: center;
-        text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
-        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.03);
+        /* text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
+        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.03); */
         letter-spacing: 1px;
         margin-top: 10px;
         margin-bottom: 60px;
