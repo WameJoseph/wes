@@ -337,6 +337,7 @@ main .section1 .partners{
     animation-duration: 10s;
     /* animation-delay: 1s; */
     /* animation-iteration-count: infinite; */
+    border-radius: 3px;
 }
 
 
@@ -541,7 +542,7 @@ main .section2{
     }
 
     header section{
-        width: 95%;
+        width: 90%;
     }
 
     header section .main-container{
@@ -550,9 +551,10 @@ main .section2{
     
     header section .main-container h2{
         font-size: 22px;
-        font-weight: 600;
-        width: 85%;
+        font-weight: 700;
+        width: 90%;
         letter-spacing: 3px;
+        line-height: 38px;
     }
 
     header section .main-container h3{
@@ -561,12 +563,16 @@ main .section2{
         margin-top: 20px;
     }
 
+    header section .main-container a{
+        margin-top: 60px;
+    }
+
     main{
         /* border: solid silver; */
         /* position: relative; */
         margin: 0 auto;
         margin-top: 60px;
-        width: 95%;
+        width: 91%;
         /* border: solid; */
     }
 
