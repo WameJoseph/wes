@@ -272,7 +272,7 @@ header section .main-container a{
     /* box-shadow: 13px 15px rgba(255, 255, 255, 0.3); */
     box-shadow: 10px 10px rgba(255, 255, 255, 0.3);
     color: black;
-    border: solid black 2px;
+    /* border: solid black 2px; */
     letter-spacing: .4px;
     /* margin-top: 5px; */
     padding: 7px 15px;
@@ -551,8 +551,8 @@ main .section2{
     header section .main-container h2{
         font-size: 22px;
         font-weight: 600;
-        width: 80%;
-        letter-spacing: 1px;
+        width: 85%;
+        letter-spacing: 3px;
     }
 
     header section .main-container h3{
@@ -571,7 +571,7 @@ main .section2{
     }
 
     main .section1{
-        height: 95px;
+        height: 91px;
     }
     
     main .section1 .partners img{
