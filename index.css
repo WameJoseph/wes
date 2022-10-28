@@ -164,14 +164,25 @@ header section .back{
     background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb);
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     background-image: linear-gradient(to right top, #6e1b4a, #771e67, #8427a0);
-    display: flex; padding: 0 5%; justify-content: flex-start;
-    align-items: flex-start;
+    display: flex; padding: 0 0%; justify-content: flex-start;
+    align-items: flex-end;
 }
 
 header section .back img{
     width: 200px;
     height: 200px;
     display: none;
+}
+
+
+header section .back .o1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255, 0.1);
+    /* filter: blur(5px); */
+    margin-left: -5%;
+    margin-bottom: -5%;
 }
 
 
@@ -211,7 +222,7 @@ header section .main-container h1 b{
 }
 
 header section .main-container h2{
-    font-size: 26px;
+    font-size: 30px;
     color: white;
     font-weight: 500;
     /* letter-spacing: 2px; */
@@ -230,7 +241,7 @@ header section .main-container a{
     border-radius: 10px;
     color: white;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     box-shadow: 5px 5px rgb(255, 255, 255, 0.5);
     box-shadow: 13px 15px rgb(132, 196, 37, 0.3);
     box-shadow: 13px 15px rgba(37, 48, 196, 0.651);
@@ -242,14 +253,14 @@ header section .main-container a{
 
     background-color: rgb(255, 255, 255, 0.6);
     /* box-shadow: 13px 15px rgba(255, 255, 255, 0.3); */
-    box-shadow: 12px 12px rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px rgba(255, 255, 255, 0.3);
     color: black;
     border: solid black 2px;
     letter-spacing: .6px;
 
 
     /* margin-top: 5px; */
-    padding: 8px 20px;
+    padding: 7px 15px;
     transition: 130ms;
     margin-bottom: 5px;
 }
@@ -317,12 +328,12 @@ header section .main-container a:hover{
 
     header section .back{
         position: absolute;
-        height: 100%;
-        width: 90%;
+        height: 350px;
+        width: 83%;
     }
 
     header section .main-container h2{
-        width: 50%;
+        width: 70%;
         text-align: center;
         text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
         text-shadow: 3px 2px 0px rgba(18, 13, 66, 0.534) !important;
@@ -341,7 +352,7 @@ header section .main-container a:hover{
     }
 
     header section .main-container h2{
-        font-size: 21px;
+        font-size: 26px;
         color: white;
         font-weight: 500;
         /* letter-spacing: 2px; */
@@ -352,6 +363,16 @@ header section .main-container a:hover{
         letter-spacing: 2px;
         margin-top: 30px;
         margin-bottom: 60px;
+    }
+
+    header section .back .o1{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-color: rgb(255, 255, 255, 0.1);
+        /* filter: blur(5px); */
+        margin-left: -8%;
+        margin-bottom: -8%;
     }
 }
 
@@ -396,30 +417,46 @@ header section .main-container a:hover{
     }
 
     header section .main-container h2{
-        font-size: 21px;
+        font-size: 24px;
         color: white;
         font-weight: 500;
         /* letter-spacing: 2px; */
         width: 100%;
         text-align: center;
         text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
-        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.3);
-        letter-spacing: 2px;
-        margin-top: 30px;
+        text-shadow: 3px 2px 0px rgba(75, 112, 20, 0.03);
+        letter-spacing: 1px;
+        margin-top: 10px;
         margin-bottom: 60px;
     }
 
-    
-header section .back{
-    position: absolute;
-    height: 100%;
-    width: 98%;
-    border-radius: 15px;
-    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb); */
-}
 
+    header section .back{
+        position: absolute;
+        height: 100%;
+        width: 98%;
+        border-radius: 15px;
+        /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb); */
+        background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
 
+    }
+
+    header section .main-container a{
+        font-size: 16px;
+        /* margin-top: 5px; */
+        padding: 8px 15px;
+
+    }
+    header section .back .o1{
+        width: 130px;
+        height: 130px;
+        border-radius: 100%;
+        background-color: rgb(255, 255, 255, 0.05);
+        /* filter: blur(5px); */
+        margin-left: -13%;
+        margin-bottom: -10%;
+    }
 
 
 }
