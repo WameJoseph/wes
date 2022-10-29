@@ -298,7 +298,7 @@ main{
     /* border: solid silver; */
     /* position: relative; */
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 40px;
     width: 83%;
     height: fit-content;
     /* border: solid; */
@@ -595,7 +595,7 @@ main .section2 .holder .sp .text h4{
         position: absolute;
         height: 100%;
         width: 100%;
-        border-radius: 15px;
+        border-radius: 0px;
         background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
         opacity: .9;
 
@@ -619,7 +619,9 @@ main .section2 .holder .sp .text h4{
     }
 
     header section{
-        width: 90%;
+        width: 100%;
+        padding-top: 0;
+        margin-top: 0;
     }
 
     header section .main-container{
@@ -642,13 +644,14 @@ main .section2 .holder .sp .text h4{
 
     header section .main-container a{
         margin-top: 60px;
+        border-radius: 2px;
     }
 
     main{
         /* border: solid silver; */
         /* position: relative; */
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 25px;
         width: 91%;
         /* border: solid; */
     }
