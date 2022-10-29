@@ -59,6 +59,7 @@ nav{
     z-index: 1;
     top: 0;
     background-color: white;
+    
 }
 
 nav .sp1{
@@ -302,6 +303,7 @@ main{
     width: 83%;
     height: fit-content;
     /* border: solid; */
+    /* position: absolute; */
 }
 
 main .section1{
@@ -424,7 +426,7 @@ main .section2 .holder .sp{
     align-items: center;
     width: 100%;
     /* border: solid 1px green; */
-    padding: 100px 0;
+    padding: 0px 0;
 
 }
 
@@ -436,7 +438,8 @@ main .section2 .holder .sp .s{
     height: fit-content;
     width: 50%;
     /* border: solid 1px silver; */
-    height: 300px;
+    height: fit-content;
+    padding: 50px 0;
 }
 
 main .section2 .holder .sp .text{
@@ -472,20 +475,98 @@ main .section2 .holder .sp .text h4{
     width: 90%;
 }
 
+main .section2 .holder .sp .image{
+    display: flex; 
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    /* border: solid 1px green; */
+    /* position: relative; */
+}
+
+main .section2 .holder .sp .image span{
+   width: 250px; height: 300px;
+   border-radius: 5px;
+   /* box-shadow:  3px 3px 30px #d4d4d47b; */
+   border: solid white;
+}
+
+main .section2 .holder .sp .image .oo1{
+    background-image: url(SAMPLE\ front-back-isolated-t-shirt-with-shadow-mockup_117023-1752.webp);
+    /* position: absolute;
+    left: 30px;
+    top: 30px; */
+    margin-top: 50px;
+    margin-right: -15px;
+    background-size: cover; background-position: center;
+    /* z-index: -1; */
+    box-shadow: 5px 5px 10px rgba(153, 153, 153, 0.508);
+}
+ 
+main .section2 .holder .sp .image .oo2{
+    background-image: url(SAMPLE\ mens-hoodie-logo-mockup_417483-974.webp);
+    /* position: relative; */
+    background-size: cover; background-position: center;
+   /* box-shadow:  3px 3px 30px 30px #d4d4d4ba; */
+   box-shadow: 5px 5px 10px rgba(153, 153, 153, 0.508);
+   z-index: -1;
+}
+
+
+/* main .section2 .holder .sp .txt2{
+    align-items: flex-end;
+    justify-content: center;
+} */
+
+main .section2 .holder .sp .im2{
+    display: flex; 
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+    /* border: solid 1px green; */
+    /* position: relative; */
+}
+
+main .section2 .holder .sp .im2 .oo1{
+   background-image: url(SAMPLE\ ladies-hat-logo-mockup-design_417483-1933.webp);
+
+}
+
+main .section2 .holder .sp .im2 .oo2{
+  background-image: url(SAMPLE\ white-hat-logo-mockup_417483-982.webp);
+   
+}
+
+
+
+.section3{
+    width: 100%;
+    display: flex;
+    height: 60vh;
+    background-color:rgb(127, 153, 255, 0.5);
+    /* position: relative; */
+}
 
 
 
 
+@media screen and (max-width: 1300px) {
+    main .section2 .holder .sp .txt2{
+        padding-left: 6%;
+    }
 
-
-
-
-
-
-
-
-
-
+    main{
+        /* border: solid silver; */
+        /* position: relative; */
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 86%;
+        height: fit-content;
+        /* border: solid; */
+    }
+}
 
 
 
@@ -529,6 +610,7 @@ main .section2 .holder .sp .text h4{
         height: 70px;
         padding: 0 6%;
     }
+    
 
     header section .main-container h2{
         font-size: 30px;
@@ -541,6 +623,17 @@ main .section2 .holder .sp .text h4{
         width: 70%;
         margin-top: 20px;
         word-spacing: 0px;
+    }
+
+    
+    main{
+        /* border: solid silver; */
+        /* position: relative; */
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 90%;
+        height: fit-content;
+        /* border: solid; */
     }
 
     main .section1{
@@ -557,7 +650,72 @@ main .section2 .holder .sp .text h4{
 
 }
 
+
+@media screen and (max-width:800px) {
+    main{
+        /* border: solid silver; */
+        /* position: relative; */
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 83%;
+        /* border: solid; */
+    }
+
+    main .section2 h2{
+        width: 80%;
+        margin-bottom: 60px;
+    }
+
+    main .section2 .holder .sp{
+        display: flex; 
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* border: solid 1px green; */
+        padding: 0px 0;
+    }
+
+    main .section2 .holder .sp .s{
+        display: flex; 
+        /* justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+        height: fit-content;
+        width: 100%;
+        /* border: solid 1px silver; */
+        height: fit-content;
+        padding: 25px 0;
+        margin: 0 auto;
+    }
+
+    main .section2 .holder .sp .image{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%; */
+        /* border: solid 1px green; */
+        /* position: relative; */
+        padding-bottom: 80px;
+    }
+
+    main .section2 .holder .sp .txt2{
+        order: 1;
+    }
+
+    main .section2 .holder .sp .im2{
+       order: 2;
+    }
+    
+}
+
+
 @media screen and (max-width: 600px) {
+    nav{
+        box-shadow: 1px 5px 10px rgba(79, 79, 79, 0.5);
+    }
+
     nav  .logo{
         font-size: 24px;
     }
@@ -598,8 +756,12 @@ main .section2 .holder .sp .text h4{
         border-radius: 0px;
         background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
         opacity: .9;
-
-
+        padding: 0;
+        margin-top: -9.5px;
+    }
+ 
+    header section{
+        /* margin-top: -30px; */
     }
 
     header section .back .o1{
@@ -620,8 +782,9 @@ main .section2 .holder .sp .text h4{
 
     header section{
         width: 100%;
-        padding-top: 0;
+        padding-top: 0px;
         margin-top: 0;
+        padding-bottom: 60px;
     }
 
     header section .main-container{
@@ -629,22 +792,23 @@ main .section2 .holder .sp .text h4{
     }
     
     header section .main-container h2{
-        font-size: 22px;
+        font-size: 24px;
         font-weight: 700;
         width: 90%;
         letter-spacing: 3px;
         line-height: 38px;
+        margin-top: 20px;
     }
 
     header section .main-container h3{
         font-size: 16px;
-        width: 75%;
+        width:80%;
         margin-top: 20px;
     }
 
     header section .main-container a{
-        margin-top: 60px;
-        border-radius: 2px;
+        margin-top: 75px;
+        border-radius: 5px;
     }
 
     main{
@@ -657,9 +821,17 @@ main .section2 .holder .sp .text h4{
     }
 
     main .section1{
-        height: 91px;
+        height: 80px;
     }
     
+    main .section1 .back .h1{
+        padding: 8px 0;
+        border-radius: 10px;
+        font-weight: 500;
+        color: black;
+        margin-bottom: 10px;
+    }
+
     main .section1 .partners img{
         /* filter: grayscale(3); */
         /* filter: brightness(0.3); */
@@ -668,4 +840,29 @@ main .section2 .holder .sp .text h4{
         margin: 5px 10px;
     }
 
+    main .section1 .partners{
+        padding: 6px 0px;
+        margin-top: 6px;
+    }
+
+
+    main .section2 h2{
+        width: 98%;
+        margin-bottom: 45px;
+        font-size: 22px;
+    }
+
+
+    main .section2 .holder .sp .text h5{
+        font-size: 14px;
+        font-weight: 800;
+    }
+    
+    main .section2 .holder .sp .text h3{
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin: 15px 0;
+    }
 }
