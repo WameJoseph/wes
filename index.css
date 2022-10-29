@@ -46,7 +46,7 @@ header .main-container section{
 
 nav{
     width: 100%;
-    height: 80px;
+    height: 70px;
     /* box-shadow: 1px 3px 3px #121239; */
     border-radius: 3px;
     /* background-color: wheat; */
@@ -138,21 +138,21 @@ nav .sp2 .connect{
     display: flex; justify-content: center; align-items: center;
     transition: 300ms;
     background-color: black;
-    padding: 10px 20px;
+    padding: 6px 20px;
     border-radius: 10px;
     margin-left: 50px;
     background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb);
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca);
     background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
 
-    transition: 1s;
+    transition: 150ms;
 }
 
 nav .sp2 .connect:hover{
-    background-color: rgba(0, 0, 0, 0.795);
+    /* background-color: rgba(0, 0, 0, 0.795);
     background-color: rgba(2, 168, 2, 0.74);
-    background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
-
+    background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4); */
+    margin-top: -10px;
     /* background-image: linear-gradient(to right top, #051937, #002265); */
 
 }
@@ -161,7 +161,7 @@ header section{
     position: relative;
     width: 83%;
     height: fit-content; display: flex; align-items: flex-start; justify-content: center;
-    padding-top: 20px;
+    padding-top: 0px;
     /* border: solid; */
     height: fit-content;
 }
@@ -222,7 +222,7 @@ header section .main-container{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px 0 20px 0;
+    padding: 40px 0 20px 0;
 }
 
 header section .main-container h2{
@@ -230,11 +230,11 @@ header section .main-container h2{
     color: white;
     font-weight: 600;
     /* letter-spacing: 2px; */
-    width: 54%;
+    width: 45%;
     text-align: center;
     /* text-shadow: 3px 2px 0px rgb(132, 196, 37, 0.3);
     text-shadow: 1px 2px 0px rgba(18, 13, 66, 0.534); */
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     /* margin-top: 10px; */
     /* margin-bottom: 85px; */
     word-spacing: 0px;
@@ -246,7 +246,7 @@ header section .main-container h3{
     font-size: 20px;
     color: white;
     font-weight: 400;
-    width: 50%;
+    width: 45%;
     text-align: center;
     margin-top: 20px;
     word-spacing: 0px;
@@ -278,7 +278,7 @@ header section .main-container a{
     padding: 7px 15px;
     transition: 130ms;
     margin-bottom: 5px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 header section .main-container a:hover{
@@ -286,7 +286,7 @@ header section .main-container a:hover{
     background-color: rgb(255, 255, 255, 0.6);
     /* box-shadow: 13px 15px rgba(255, 255, 255, 0.3); */
     box-shadow: 15px 15px rgba(255, 255, 255, 0.15);
-    border: solid black 2px;
+    border: solid black 1px;
     letter-spacing: 1px;
     /* padding: 9px 20px; */
     /* margin-left: 5px; */
@@ -360,6 +360,13 @@ main .section1 .partners img{
     width: 45px; height: 45px;
     margin: 10px 20px;
     scroll-snap-align: start;
+    transition: 200ms;
+}
+
+main .section1 .partners img:hover{
+    /* filter: grayscale(3); */
+    /* filter: brightness(0.3); */
+    filter: grayscale(40%); opacity: .9;
 }
 
 main .section1 .back{
@@ -381,20 +388,89 @@ main .section1 .back .h1{
 }
 
 main .section2{
-    border: solid 1px;
-    margin-top: 40px;
-    height: 40vh;
+    /* border: solid 1px; */
+    width: 100%;
+    margin-top: 70px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main .section2 h2{
+    text-align: center;
+    width: 60%;
+}
+
+main .section2 h2 span{
+    color: rgb(234, 57, 86);
+    margin: 0 5px;
+}
+
+main .section2 .holder{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    /* padding: 140px 0; */
+}
+
+main .section2 .holder .sp{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: solid 1px green; */
+    padding: 100px 0;
+
+}
+
+main .section2 .holder .sp .s{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 50%;
+    /* border: solid 1px silver; */
+    height: 300px;
+}
+
+main .section2 .holder .sp .text{
+    align-items: flex-start;
+    justify-content: center;
+}
+
+main .section2 .holder .sp .text h5{
+    font-size: 16px;
+    font-weight: 800;
+    /* font-family: 'Roboto', sans-serif; */
+    text-transform: uppercase;
+    color: rgb(1, 153, 203);
+    letter-spacing: 1s;
+}
+
+main .section2 .holder .sp .text h3{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 15px 0;
 }
 
 
+main .section2 .holder .sp .text h3 span{
+    font-weight: 300;
+}
 
-
-
-
-
-
-
-
+main .section2 .holder .sp .text h4{
+    font-size: 16px;
+    font-weight: 400;
+    width: 90%;
+}
 
 
 
@@ -455,7 +531,8 @@ main .section2{
     }
 
     header section .main-container h2{
-        width: 80%;
+        font-size: 30px;
+        width: 70%;
         letter-spacing: 2px;
     }
 
