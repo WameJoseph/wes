@@ -888,7 +888,7 @@ main .section2 .holder .sp .im2 .oo2{
 
 .section5 div span{
     display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
-    width: 300px;
+    width: 330px;
     height: fit-content;
     /* border: solid 1px; */
     margin-top: 80px;
@@ -905,11 +905,13 @@ main .section2 .holder .sp .im2 .oo2{
     text-overflow: ellipsis;
     overflow: hidden;
     white-space:nowrap;
-    margin: 13px 0 0px 0;
+    margin: 13px 0 5px 0;
     font-weight: 500;
 }
 
-
+.section5 div span p a{
+    color:rgb(5, 154, 229); font-weight:600; letter-spacing:1.5px;
+}
 
 
 
