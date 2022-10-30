@@ -350,8 +350,9 @@ main .section1 .partners{
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 0 5px;
-    transform: rotateZ(-.8deg);
+    /* transform: rotateZ(-.8deg); */
     /* border: solid ; */
+    transform: 0 !important;
     padding: 16px 0px;
     overflow: auto;
     background: rgb(231, 231, 231);
@@ -452,7 +453,7 @@ main .section2 .holder .sp{
     align-items: center;
     width: 100%;
     /* border: solid 1px green; */
-    padding: 60px 0;
+    padding: 90px 0;
 
 }
 
@@ -492,6 +493,29 @@ main .section2 .holder .sp .text h3{
     margin: 15px 0;
 }
 
+main .section2 .holder .sp .text a{
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: auto;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 0;
+    width: 230px;
+    white-space: nowrap;
+    padding: 0 15px;
+    transition: 100ms;
+    color: rgb(80, 196, 235);
+    font-size: 18px;
+}
+
+main .section2 .holder .sp .text a i{
+    margin-left: 10px;
+}
+
+main .section2 .holder .sp .text a:hover{
+    padding: ;
+    padding: 0 6px;
+
+}
 
 main .section2 .holder .sp .text h3 span{
     font-weight: 300;
@@ -652,7 +676,7 @@ main .section2 .holder .sp .im2 .oo2{
     height: fit-content;
     width: 83%;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 60px 0 30px 0;
 }
 
 
@@ -792,14 +816,19 @@ main .section2 .holder .sp .im2 .oo2{
     font-weight: 600;
     text-decoration: none;
     border: solid 1px rgba(240, 240, 19, 0.874);
+    border: solid 1px rgba(212, 212, 21, 0.874);
+
     background-color: white;
     padding: 10px 15px;
-    width: 250px;
+    width: 260px;
     display: flex; align-items: center; justify-content: space-between;
     white-space: nowrap;
     box-shadow: 13px 10px rgba(230, 230, 34, 0.645);
-    color: rgba(240, 240, 19, 0.874);
-    transition: 0.3s;
+    box-shadow: 15px 13px rgba(199, 199, 30, 0.3);
+
+    color: rgba(192, 192, 58, 0.874);
+    letter-spacing: 1px;
+    transition: 100ms;
     margin-top: 40px;
 }
 
@@ -808,27 +837,76 @@ main .section2 .holder .sp .im2 .oo2{
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
-    border: solid 1px rgba(240, 240, 19, 0.874);
+    border: solid 1px rgba(212, 212, 21, 0.874);
     background-color: white;
     padding: 10px 10px;
-    width: 250px;
-    box-shadow: 15px 13px rgba(230, 230, 34, 0.645);
+    /* width: 250px; */
+    box-shadow: 18px 18px rgba(199, 199, 30, 0.645);
 }
 
 
+.section5{
+    width: 83%;
+    display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+    margin: 0 auto;
+    /* border: solid; */
+    margin-bottom: 150px;
+}
+
+.section5 .h3{
+    color: rgb(1, 153, 203);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+ 
+
+.section5 .h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.section5 .h32{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.793);
+    margin-top: 10px;
+}
+ 
+
+.section5 div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
+.section5 div span{
+    display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
+    width: 300px;
+    height: fit-content;
+    /* border: solid 1px; */
+    margin-top: 80px;
+}
 
 
+.section5 div span img{
+    width: 30px;
+    width: 30px;
+}
 
-
-
-
-
-
-
-
-
+.section5 div span h3{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+    margin: 13px 0 0px 0;
+    font-weight: 500;
+}
 
 
 
@@ -904,6 +982,12 @@ main .section2 .holder .sp .im2 .oo2{
         margin-left: 40px;
     }
 
+    .section5 div span{
+        /* width: 600px; */
+        height: fit-content;
+        /* border: solid 1px; */
+        margin-top: 80px;
+    }
 
 
 }
@@ -935,7 +1019,7 @@ main .section2 .holder .sp .im2 .oo2{
         /* position: relative; */
         margin: 0 auto;
         margin-top: 40px;
-        width: 90%;
+        /* width: 90%; */
         height: fit-content;
         /* border: solid; */
     }
@@ -950,6 +1034,14 @@ main .section2 .holder .sp .im2 .oo2{
         filter: grayscale(90%); opacity: .5;
         width: 37px; height: 37px;
         margin: 5px 10px;
+    }
+
+    .section5 div span{
+        width: 98;
+        height: fit-content;
+        /* border: solid 1px; */
+        margin-top: 80px;
+        /* margin-right: auto; */
     }
 
 }
@@ -1057,6 +1149,13 @@ main .section2 .holder .sp .im2 .oo2{
         /* border: solid 1px green; */
         /* position: relative; */
         padding-bottom: 80px;
+    }
+
+    .section5 div span{
+        width: 100%;
+        height: fit-content;
+        /* border: solid 1px; */
+        margin-top: 80px;
     }
     
 }
@@ -1263,6 +1362,11 @@ main .section2 .holder .sp .im2 .oo2{
         margin: 15px 0;
     }
 
+    main .section2 .holder .sp .text a{
+        /* font-size: 16px; */
+    }
+    
+
 
     .section4{
         width: 90%;
@@ -1274,12 +1378,37 @@ main .section2 .holder .sp .im2 .oo2{
         margin-bottom: 30px;
     }
     
+    .section4 .h3{
+        
+    }
 
     .section4 .h4{
         text-align: center;
        font-weight: 500;
        font-size: 20px;
        margin-top: 10px;
+    }
+
+    .section4 .h3{
+        text-align: center;
+        font-size: 22px; font-weight: 400;
+    }
+    
+    .section4 .h3 .sp1{
+        font-size: 22px; 
+        font-weight: 300;
+    }
+    
+    .section4 .h3 .sp2{
+        font-size: 22px; 
+        font-weight: 600;
+    }
+    
+    .section4 .h3 .sp3{
+        font-size: 22px; 
+        font-weight: 700;
+        color: rgb(247, 247, 58);
+        letter-spacing: 1px;
     }
 
     .section4 div .sp .text h3{
@@ -1291,11 +1420,37 @@ main .section2 .holder .sp .im2 .oo2{
         margin-top: 60px;
     }
 
+    .section5 .h2{
+        font-size: 28px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    
+    .section5 div span{
+        /* width: 600px; */
+        width: 100%;
+        height: fit-content;
+        /* border: solid 1px; */
+        margin-top: 40px;
+    }
 
 
 
 
 
 
+}
 
+@media screen and (max-width: 300px) {
+    .section4 div .sp .text a{
+        width: 200px;
+        padding: 8px 10px;
+        white-space:unset;
+        word-break: break-all;
+    }
+
+    .section4 div .sp .text a .g{
+        display: none;
+    }
 }
