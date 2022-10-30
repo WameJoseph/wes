@@ -631,7 +631,7 @@ main .section2 .holder .sp .im2 .oo2{
     flex-wrap: wrap;
 }
 
-.section3 div span{
+.section3 div .div{
     height: 190px;
     width: 240px;
     border-radius: 16px;
@@ -640,13 +640,14 @@ main .section2 .holder .sp .im2 .oo2{
     margin: 30px 0;
     display: flex; flex-direction: column; align-items: center; justify-content: center;
     background-color: white;
+    text-decoration: none;
 }
 
-.section3 div span .o1{
+.section3 div .div .o1{
     font-size: 36px;
 }
 
-.section3 div span .o2{
+.section3 div .div .o2{
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.9px;
@@ -1272,6 +1273,10 @@ main .section2 .holder .sp .im2 .oo2{
     header section .main-container a{
         margin-top: 60px;
         border-radius: 5px;
+    }
+
+    .oo2{
+        margin-top: -10px;
     }
 
     main{
