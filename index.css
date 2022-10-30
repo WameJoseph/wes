@@ -385,7 +385,7 @@ main .section1 .partners img{
     width: 45px; height: 45px;
     margin: 10px 20px;
     scroll-snap-align: start;
-    transition: 200ms;
+    transition: 100ms;
 }
 
 main .section1 .partners img:hover{
@@ -599,7 +599,7 @@ main .section2 .holder .sp .im2 .oo2{
     background-color:rgba(146, 162, 227, 0.1);
     background: rgb(249, 250, 255);
     /* position: relative; */
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -911,9 +911,12 @@ main .section2 .holder .sp .im2 .oo2{
 
 .section5 div span p a{
     color:rgb(5, 154, 229); font-weight:600; letter-spacing:1.5px;
+    transition: 100ms;
 }
 
-
+.section5 div span p a:hover{
+    color: rgb(5, 154, 229, 0.5);
+}
 
 
 
@@ -1371,6 +1374,10 @@ main .section2 .holder .sp .im2 .oo2{
 
     main .section2 .holder .sp .text a{
         /* font-size: 16px; */
+    }
+
+    main .section2 .holder .sp3{
+        margin-top: 50px;
     }
     
 
