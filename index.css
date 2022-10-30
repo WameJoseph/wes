@@ -76,6 +76,10 @@ nav .sp1 .menu{
     /* letter-spacing: 3px; */
     cursor: pointer;
 
+
+    /* color: rgb(0, 93, 139); */
+
+
 }
 
 nav  .logo{
@@ -87,11 +91,17 @@ nav  .logo{
     /* margin-left: auto; */
     /* margin-right: 5%; */
     /* margin-right: auto; */
-    transition: 300ms;
+    transition: 2s ease-in;
+
+
+
+
+
+    /* color: rgb(0, 93, 139); */
 }
 
 nav  .logo:hover{
-    color: green;
+    color: rgb(0, 93, 139);
 }
 
 nav .logo b{
@@ -115,6 +125,11 @@ nav .sp2 .explore{
     text-decoration: none;
     display: flex; justify-content: center; align-items: center;
     transition: 100ms;
+
+
+
+
+    /* color: rgb(0, 93, 139); */
 }
 
 nav .sp2 .explore i{
@@ -127,6 +142,7 @@ nav .sp2 .explore:hover{
 
 nav .ii{
     display: none;
+    
 }
 
 nav .sp2 .connect{
@@ -145,7 +161,6 @@ nav .sp2 .connect{
     background-image: linear-gradient(to right top, #051937, #002265, #002894, #0027c1, #1a12eb);
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca);
     background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
-
     transition: 150ms;
 }
 
@@ -223,7 +238,7 @@ header section .main-container{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 0 20px 0;
+    padding: 60px 0 30px 0;
 }
 
 header section .main-container h2{
@@ -299,7 +314,7 @@ main{
     /* border: solid silver; */
     /* position: relative; */
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
     width: 83%;
     height: fit-content;
     /* border: solid; */
@@ -387,12 +402,13 @@ main .section1 .back .h1{
     border-radius: 10px;
     font-weight: 500;
     color: black;
+    /* border: solid blue; */
 }
 
 main .section2{
     /* border: solid 1px; */
     width: 100%;
-    margin-top: 70px;
+    margin-top: 100px;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -402,7 +418,10 @@ main .section2{
 
 main .section2 h2{
     text-align: center;
-    width: 60%;
+    width: 90%;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: -30px;
 }
 
 main .section2 h2 span{
@@ -426,7 +445,7 @@ main .section2 .holder .sp{
     align-items: center;
     width: 100%;
     /* border: solid 1px green; */
-    padding: 0px 0;
+    padding: 60px 0;
 
 }
 
@@ -439,12 +458,14 @@ main .section2 .holder .sp .s{
     width: 50%;
     /* border: solid 1px silver; */
     height: fit-content;
-    padding: 50px 0;
+    padding: 00px 0;
 }
 
 main .section2 .holder .sp .text{
     align-items: flex-start;
     justify-content: center;
+    height: 100%;
+    /* border: solid ; */
 }
 
 main .section2 .holder .sp .text h5{
@@ -453,7 +474,7 @@ main .section2 .holder .sp .text h5{
     /* font-family: 'Roboto', sans-serif; */
     text-transform: uppercase;
     color: rgb(1, 153, 203);
-    letter-spacing: 1s;
+    letter-spacing: 1px;
 }
 
 main .section2 .holder .sp .text h3{
@@ -493,7 +514,7 @@ main .section2 .holder .sp .image span{
 }
 
 main .section2 .holder .sp .image .oo1{
-    background-image: url(SAMPLE\ front-back-isolated-t-shirt-with-shadow-mockup_117023-1752.webp);
+    background-image: url(SAMPLE\ mens-hoodie-logo-mockup_417483-974.webp);
     /* position: absolute;
     left: 30px;
     top: 30px; */
@@ -505,7 +526,7 @@ main .section2 .holder .sp .image .oo1{
 }
  
 main .section2 .holder .sp .image .oo2{
-    background-image: url(SAMPLE\ mens-hoodie-logo-mockup_417483-974.webp);
+    background-image: url(SAMPLE\ luxurious-shirt-side-view-mockup-design-psd-mockup_495865-141\ 2.webp);
     /* position: relative; */
     background-size: cover; background-position: center;
    /* box-shadow:  3px 3px 30px 30px #d4d4d4ba; */
@@ -515,8 +536,7 @@ main .section2 .holder .sp .image .oo2{
 
 
 /* main .section2 .holder .sp .txt2{
-    align-items: flex-end;
-    justify-content: center;
+   padding: 260px 0 100px 0;
 } */
 
 main .section2 .holder .sp .im2{
@@ -530,7 +550,7 @@ main .section2 .holder .sp .im2{
 }
 
 main .section2 .holder .sp .im2 .oo1{
-   background-image: url(SAMPLE\ ladies-hat-logo-mockup-design_417483-1933.webp);
+   background-image: url(SHIRT\ long-sleeve-sweater-design-mockup_417483-1932.webp);
 
 }
 
@@ -544,10 +564,258 @@ main .section2 .holder .sp .im2 .oo2{
 .section3{
     width: 100%;
     display: flex;
-    height: 60vh;
-    background-color:rgb(127, 153, 255, 0.5);
+    height: fit-content;
+    background-color:rgba(146, 162, 227, 0.1);
+    background: rgb(249, 250, 255);
+    /* position: relative; */
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.section3 h3{
+    font-size: 28px;
+    /* font-family: 'Roboto',sans-serif; */
+    text-align: center;
+    color: rgb(0, 93, 139);
+    letter-spacing: 1;
+    font-weight: 500;
+}
+
+.section3 .h3{
+    width: 95%;
+}
+
+.section3 div{
+    width: 82%;
+    /* border: solid 1px; */
+    height: fit-content;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section3 div span{
+    height: 190px;
+    width: 240px;
+    border-radius: 16px;
+    border: solid 1.5px;
+    border-color: palevioletred;
+    margin: 30px 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    background-color: white;
+}
+
+.section3 div span .o1{
+    font-size: 36px;
+}
+
+.section3 div span .o2{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+}
+
+.section3 h4{
+    font-size: 14px;
+    /* font-family: 'Roboto',sans-serif; */
+    text-align: center;
+    color: rgb(0, 93, 139);
+    letter-spacing: 1;
+    width: 80%;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+.section4{
+    display: flex; flex-direction: column;
+    justify-content: flex-start;
+    align-items: ccenter;
+    height: fit-content;
+    width: 83%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+
+.section4 .h3{
+    text-align: center;
+    font-size: 24px; font-weight: 400;
+}
+
+.section4 .h3 .sp1{
+    font-size: 26px; 
+    font-weight: 300;
+}
+
+.section4 .h3 .sp2{
+    font-size: 26px; 
+    font-weight: 600;
+}
+
+.section4 .h3 .sp3{
+    font-size: 26px; 
+    font-weight: 700;
+    color: rgb(247, 247, 58);
+    letter-spacing: 1px;
+}
+
+.section4 .h4{
+    text-align: center;
+   font-weight: 500;
+   font-size: 18px;
+   margin-top: 10px;
+}
+
+
+
+.section4 div .sp{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: solid 1px green; */
+    padding: 0px 0 60px 0;
+
+}
+
+.section4 div .sp .s{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 50%;
+    /* border: solid 1px silver; */
+    height: fit-content;
+    padding: 35px 0 60px 0;
+}
+
+.section4 div .sp .text{
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    /* border: solid ; */
+}
+
+.section4 div .sp .text h5{
+    font-size: 16px;
+    font-weight: 800;
+    /* font-family: 'Roboto', sans-serif; */
+    text-transform: uppercase;
+    color: rgb(1, 153, 203);
+    letter-spacing: 1px;
+}
+
+.section4 div .sp .text h3{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+
+
+.section4 div .sp .text h3 span{
+    font-weight: 300;
+}
+
+.section4 div .sp .text h4{
+    font-size: 16px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.section4 div .sp .image{
+    display: flex; 
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    /* border: solid 1px green; */
     /* position: relative; */
 }
+
+.section4 div .sp .image span{
+   width: 250px; height: 300px;
+   border-radius: 5px;
+   /* box-shadow:  3px 3px 30px #d4d4d47b; */
+   border: solid white;
+}
+
+.section4 div .sp .image .oo1{
+    background-image: url(SAMPLE\ mens-hoodie-logo-mockup_417483-974.webp);
+    /* position: absolute;
+    left: 30px;
+    top: 30px; */
+    margin-top: 50px;
+    margin-right: -15px;
+    background-size: cover; background-position: center;
+    /* z-index: -1; */
+    box-shadow: 5px 5px 10px rgba(153, 153, 153, 0.508);
+}
+ 
+.section4 div .sp .image .oo2{
+    background-image: url(SAMPLE\ luxurious-shirt-back-side-view-mockup-design-psd-mockup_495865-144.jpg);
+    /* position: relative; */
+    background-size: cover; background-position: center;
+   /* box-shadow:  3px 3px 30px 30px #d4d4d4ba; */
+   box-shadow: 5px 5px 10px rgba(153, 153, 153, 0.508);
+   z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -707,6 +975,53 @@ main .section2 .holder .sp .im2 .oo2{
     main .section2 .holder .sp .im2{
        order: 2;
     }
+
+    .section3 div{
+        margin-top: 20px;
+    }
+
+    .section3 .h3{
+        width: 95%;
+        font-size: 24px;
+    }
+
+    .section4{
+        
+    }
+
+    .section4 div .sp{
+        display: flex; 
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        /* border: solid 1px green; */
+        padding: 0px 0;
+    }
+
+    .section4 div .sp .s{
+        display: flex; 
+        /* justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+        height: fit-content;
+        width: 100%;
+        /* border: solid 1px silver; */
+        height: fit-content;
+        padding: 5px 0;
+        margin: 0 auto;
+    }
+
+    .section4 div .sp .image{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%; */
+        /* border: solid 1px green; */
+        /* position: relative; */
+        padding-bottom: 80px;
+    }
     
 }
 
@@ -747,6 +1062,9 @@ main .section2 .holder .sp .im2 .oo2{
         text-decoration: none;
         display: flex; justify-content: center; align-items: center;
         transition: 100ms;
+
+    /* color: rgb(0, 93, 139); */
+
     }
 
     header section .back{
@@ -810,11 +1128,12 @@ main .section2 .holder .sp .im2 .oo2{
     header section .main-container h3{
         font-size: 16px;
         width:80%;
-        margin-top: 10px;
+        margin-top: 18px;
+        margin-bottom: 30px;
     }
 
     header section .main-container a{
-        margin-top: 45px;
+        margin-top: 60px;
         border-radius: 5px;
     }
 
@@ -900,4 +1219,27 @@ main .section2 .holder .sp .im2 .oo2{
         text-transform: capitalize;
         margin: 15px 0;
     }
+
+
+    .section4{
+        width: 90%;
+    }
+
+
+
+    .section4 .h4{
+        text-align: left;
+       font-weight: 500;
+       font-size: 18px;
+       margin-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
 }
