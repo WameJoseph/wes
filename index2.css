@@ -1,0 +1,391 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.main-container{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* height: 100%; */
+    /* background-color: whitesmoke; */
+    height: 100vh;
+}
+
+.main-container .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(60px);
+    /* background-color: rgb(223, 91, 43); */
+    background-color: rgba(218, 218, 218, 0.857);
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.main-container .back div{
+    border-radius: 30% 70% 70% 30% / 77% 30% 70% 23% ;
+    background-color: ;
+    background-image: linear-gradient(to right top, #cc2c87, #c02da5, #ae2ed4);
+    width: 40%; 
+    height: 40%;
+}
+
+.main-container .back .sp1{
+    border-radius: 30% 70% 70% 30% / 77% 30% 70% 23% ;
+    border-radius: 88% 12% 70% 30% / 77% 93% 7% 23% ;
+    background-image: linear-gradient(to right top, #bccc2c, #c0802d, #e4e25a);
+    width: 40%; 
+    height: 40%;
+}
+
+.main-container .back .sp2{
+    /* border-radius: 30% 70% 70% 30% / 77% 30% 70% 23% ; */
+    border-radius: 88% 12% 70% 30% / 77% 93% 7% 23% ;
+    background-image: linear-gradient(to right top, #2ccc4f, #2dc07b, #5ae494);
+    width: 40%; 
+    height: 40%;
+}
+
+.main-container .back .sp3{
+    /* border-radius: 30% 70% 70% 30% / 77% 30% 70% 23% ; */
+    /* border-radius: 88% 12% 70% 30% / 77% 93% 7% 23% ; */
+    border-radius: 88% 12% 7% 93% / 32% 49% 51% 68% ;
+    background-image: linear-gradient(to right top, #b3b3b3, #7f807f, #acbbb3);
+    width: 40%; 
+    height: 40%;
+}
+
+.form{
+    display: none;
+}
+
+.form .sp1{
+    width: 80%;
+    margin-bottom: auto;
+    margin-top: 30px;
+}
+
+.form .sp1 i{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 100%;
+    transition: 200ms;
+    margin-left: -10px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.form .email{
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.form .sp1 i:hover{
+    background-color: rgb(240, 239, 239);
+}
+
+.form h2{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.form p{
+    width: 80%;
+}
+
+.form input{
+    padding: 10px 20px;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+.form input:focus{
+    outline: solid 2px black;
+}
+
+.form button{
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+
+.email a i{
+    font-size: 22px;
+    margin: 0 10px;
+    color: black;
+}
+
+.main-container .main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-container .main nav{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .main nav h1{
+    font-size: 20px;
+    text-shadow: 3px 3px  #cc2c8746;
+    letter-spacing: 3px;
+}
+
+.main-container .main nav h1 span{
+    /* font-size: 18px; */
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.main-container .main .sp1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.main-container .main .sp1 h1{
+    text-align: center;
+    font-size: 52px;
+    width: 70%;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.main-container .main .sp1 h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1.8%;
+    width: 70%;
+}
+
+.main-container .main .sp1 a{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 230px;
+    border: solid 1.6px;
+    display: flex;
+    align-items: center;
+    word-break: keep-all;
+    white-space: nowrap;
+    justify-content: space-between;
+    transition: 180ms;
+    color: black;
+}
+
+.main-container .main .sp1 a i{
+    /* margin-left: 10px; */
+}
+
+.main-container .main .sp1 a:hover{
+    padding: 10px 10px;
+}
+
+.main-container .main .sp2{
+    padding: 0px 0 15px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container .main .sp2 form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main-container .main .sp2 form label{
+    font-size: 26px;
+}
+
+.main-container .main .sp2 form input{
+    height: 46px;
+    border-radius: 30px;
+    width: 55%;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(244, 244, 244);
+    font-size: 14px;
+    /* display: flex; align-items: center; */
+    margin: 0 20px;
+}
+
+
+.main-container .main .sp2 form button{
+    padding: 5px 15px;
+    border-radius: 30px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+}
+
+.a2{
+    display: none;
+}
+
+.main-container .main .sp2 .ccc{
+    font-size: 14px;
+}
+
+.main-container .main .sp3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.main-container .main .sp3 a i{
+    font-size: 16px;
+    color: black;
+    margin: 0 5px;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .main-container .main nav h1{
+        font-size: 18px;
+    }
+
+    .main-container .main .sp1 h1{
+        font-size: 44px;
+        width: 60%;
+        font-weight: 500;
+        line-height: 45px;
+    }
+
+    .main-container .main .sp1 h3{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 2.5%;
+        width: 80%;
+    }
+
+    .main-container .main .sp1 a{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 10%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .main-container .main nav h1{
+        font-size: 16px;
+        text-shadow: 3px 3px  #cc2c8746;
+        letter-spacing: 3px;
+    }
+    
+
+    .main-container .main .sp1 h1{
+        text-align: center;
+        font-size: 34px;
+        width: 90%;
+        font-weight: 500;
+        line-height: 45px;
+    }
+
+    .main-container .main .sp1 h3{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 2.5%;
+        width: 85%;
+    }
+
+    .main-container .main .sp1 a{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 15%;
+    }
+
+    
+.main-container .main .sp2{
+    padding: 0px 0 15px 0;
+}
+
+    .main-container .main .sp2 form{
+        display: flex;
+        display: none;
+    }
+
+     .a2{
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        white-space: nowrap;
+        padding: 7px 18px;
+        background-color: black;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+
+    
+.main-container .main .sp2 .ccc{
+    font-size: 13px;
+}
+
+    .form{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: white;
+    }
+}
