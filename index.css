@@ -263,6 +263,7 @@ header section .main-container h2{
     word-spacing: 0px;
     text-transform: capitalize;
     text-transform: uppercase;
+    /* border: solid 1px; */
 }
 
 header section .main-container h3{
@@ -271,7 +272,7 @@ header section .main-container h3{
     font-weight: 400;
     width: 45%;
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: -2px; */
     word-spacing: 0px;
 }
 
@@ -357,7 +358,7 @@ main .section1 .partners{
     transform: 0 !important;
     padding: 16px 0px;
     overflow: auto;
-    background: rgb(231, 231, 231);
+    background: rgb(237, 237, 237);
     scroll-snap-type: mandatory;
     scroll-behavior: smooth;
     animation: wame;
@@ -931,7 +932,7 @@ main .section2 .holder .sp .im2 .oo2{
     width: 100%;
     height: fit-content;
     background-color: rgb(24, 24, 107);
-    padding: 100px 0;
+    padding: 80px 0 140px 0;
 }
 
 .section6 .front {
@@ -959,7 +960,8 @@ main .section2 .holder .sp .im2 .oo2{
     text-align: center;
     letter-spacing: 1.6px;
     width: 70%;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 5%;
 }
 
 .section6 .front a{
@@ -969,8 +971,16 @@ main .section2 .holder .sp .im2 .oo2{
     background-color: #008793;
     text-decoration: none;
     font-size: 18px;
+    border: solid 2px #008793;
     font-weight: 500;
-    margin-top: 50px;
+ transition: 200ms;
+}
+
+.section6 .front a:hover{
+    background-color: #008793d8;
+    border: solid 2px #12ebff;
+    /* margin-top: 3%; */
+    /* margin-top: -10px; */
 }
 
 .section6 .front h3 span{
@@ -1015,18 +1025,86 @@ main .section2 .holder .sp .im2 .oo2{
 
 footer{
     border: solid 1px silver;
-    height: 60vh;
+    height: fit-content;
     width: 100%;
-    padding: 60px 15px;
+    padding: 60px 8%;
 }
 
 footer .first{
     width: 100%;
-    
+    padding: 20px 0 60px 0;
+    display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap;
+}
+
+footer .first span{
+    width: fit-content; display: flex; flex-direction: column; align-items: flex-start;
+    margin-top: 40px;
+    margin: 0 20px;
+    margin-top: 40px;
+
+}
+
+footer .first span .a1{
+    color: rgb(2, 54, 72);
+    font-size: 18px; text-decoration: none;
+    font-weight: 500;
+}
+
+footer .first span .a2{
+    color: rgb(4, 93, 122);
+    font-size: 14px; text-decoration: none;
+    margin-top: 15px; transition: 300ms;
+}
+
+footer .first span .a2:hover{
+    color: rgb(2, 36, 48);
+    font-weight: bold;
+}
+
+footer .second{
+    width: 100%;
+    display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;
+    padding: 20px 0 180px 0;
+    border-top: solid 1px silver;
+}
+
+footer .second span{
+    margin-bottom: 10px;
 }
 
 
+footer .second .sp1{
+    font-size: 14px;
+    text-align: center; 
+    /* order: 2; */
+}
 
+footer .second .sp2{
+    font-size: 18px;
+    text-align: center;
+    /* order: 1; */
+    color: gray;
+
+}
+
+footer .second .sp2 a{
+    /* font-size: 24px; */
+    color: black;
+    margin: 0 5px;
+    border: solid 1px;
+
+}
+
+footer .second .sp2 a i{
+    font-size: 20px;
+}
+
+footer .second .sp3{
+    font-size: 14px;
+    text-align: center;
+    order: 2;
+
+}
 
 
 
@@ -1282,6 +1360,53 @@ footer .first{
         height: fit-content;
         /* border: solid 1px; */
         margin-top: 80px;
+    }
+
+    footer{
+        padding: 10px 2.5%;
+    }
+    footer .second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    footer .second span{
+        margin-bottom: 10px;
+    }
+
+
+    footer .second .sp1{
+        font-size: 14px;
+        text-align: center; 
+        order: 2;
+    }
+    
+    footer .second .sp2{
+        font-size: 18px;
+        text-align: center;
+        order: 1;
+        color: gray;
+
+    }
+
+    footer .second .sp2 a{
+        /* font-size: 24px; */
+        color: black;
+        margin: 0 5px;
+
+    }
+
+    footer .second .sp2 a i{
+        font-size: 20px;
+    }
+    
+    footer .second .sp3{
+        font-size: 14px;
+        text-align: center;
+        order: 2;
+
     }
     
 }
@@ -1617,6 +1742,11 @@ main .section2 .holder .sp .text h4{
     .section6 .front .sp i{
         font-size: 16px;
         margin-right: 0;
+    }
+
+    
+    footer{
+        padding: 10px 1.5%;
     }
 }
 
