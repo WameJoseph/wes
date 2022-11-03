@@ -152,7 +152,7 @@
 
 .main-container .main nav h1{
     font-size: 20px;
-    text-shadow: 3px 3px  #cc2c8746;
+    /* text-shadow: 3px 3px  #cc2c8746; */
     letter-spacing: 3px;
 }
 
@@ -319,7 +319,7 @@
 
     .main-container .main nav h1{
         font-size: 16px;
-        text-shadow: 3px 3px  #cc2c8746;
+        /* text-shadow: 3px 3px  #cc2c8746; */
         letter-spacing: 3px;
     }
     
